@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorControlNormal">#dad8d8</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorTitle">#FFFFFF</color>
+    <color name="line">#ffd3dde6</color>
+    <color name="griditems_bg">#ffe8ecef</color>
+    <color name="commo_text_color">#dae4e9</color>
+    <color name="colorDialogText">#FF354CDE</color>
+    <color name="main_start">#FF4C5DB9</color>
+    <color name="main_end">#5c6dc6</color>
+    <color name="color_button_normal">#0099ff</color>
+    <color name="color_button_disable">#AAAAAA</color>
+    <color name="color_button_pressed">#c8edfb</color>
+    <color name="color_button">#ffffff</color>
+    <color name="color_title_text">#ffffff</color>
+    <color name="color_content_text">#ffffff</color>
+    <color name="color_divide_line">#caddea</color>
+    <color name="colorOperate">#FF2C526C</color>
+    <color name="color_setting_value">#9c9e9f</color>
+    <color name="color_formalu_detail">#1a44e9</color>
+    <color name="color_formalu">#bf98e9</color>
+    <color name="colorDialogValue">#FF4F87E7</color>
+</resources>

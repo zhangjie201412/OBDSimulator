@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.jay.smartvehicle.MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/tb_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"></android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bt_data_stream"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/button_margin_top_bottom"
+            android:layout_marginLeft="@dimen/button_margin_left_right"
+            android:layout_marginRight="@dimen/button_margin_left_right"
+            android:layout_marginTop="@dimen/button_margin_top_bottom"
+            android:layout_weight="1"
+            android:background="@drawable/bg_button"
+            android:text="@string/data_stream"
+            android:textColor="@color/color_title_text" />
+
+        <Button
+            android:id="@+id/bt_error_code"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/button_margin_top_bottom"
+            android:layout_marginLeft="@dimen/button_margin_left_right"
+            android:layout_marginRight="@dimen/button_margin_left_right"
+            android:layout_marginTop="@dimen/button_margin_top_bottom"
+            android:layout_weight="1"
+            android:background="@drawable/bg_button"
+            android:text="@string/error_code"
+            android:textColor="@color/color_title_text" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bt_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/button_margin_top_bottom"
+        android:layout_marginLeft="@dimen/button_margin_left_right"
+        android:layout_marginRight="@dimen/button_margin_left_right"
+        android:layout_marginTop="@dimen/button_margin_top_bottom"
+        android:background="@drawable/bg_button"
+        android:text="@string/start"
+        android:textColor="@color/color_title_text" />
+
+    <TextView
+        android:id="@+id/tv_recv"
+        android:scrollbars="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

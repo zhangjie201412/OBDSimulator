@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">OBD模拟器</string>
+    <string name="action_setting">设置</string>
+    <string name="obd_simulator">OBD模拟器</string>
+    <string name="data_stream">数据流</string>
+    <string name="error_code">故障码</string>
+    <string name="start">开始</string>
+    <string name="stop">停止</string>
+    <string name="ok_string">确定</string>
+    <string name="cancel_string">取消</string>
+    <string name="deviceid">设备ID</string>
+    <string name="connecting">连接中</string>
+    <string name="connect_timeout">连接超时</string>
+    <string name="connected">已连接</string>
+    <string name="disconnected">断开连接</string>
+    <string name="chebang">车邦</string>
+    <string name="cherui">车瑞</string>
+    <string name="select">选择服务器</string>
+</resources>
